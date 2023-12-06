@@ -67,3 +67,11 @@ group :test do
 end
 
 gem "devise"
+
+
+# Use SCSS for stylesheets
+gem 'sass-rails', '>= 6'
+gem 'bootstrap', '~> 4.6.2'
+gem 'jquery-rails'
+gem 'popper_js'
+gem 'simple_form'
