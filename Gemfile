@@ -1,16 +1,7 @@
 source "https://rubygems.org"
 
 ruby "3.2.2"
-# Gemfile
-gem 'bootstrap', '~> 5.1.3'
-gem 'attr_encrypted'
-gem 'bcrypt', '~> 3.1.7'
-gem 'will_paginate', '~> 3.3', '>= 3.3.1'
-gem 'will_paginate-bootstrap4', '~> 0.2.2'
-gem 'groupdate', '~> 6.4'
-gem 'cancancan', '~> 3.4'
-gem "devise", "~> 4.8.0"
-gem 'ransack', '~> 4.1', '>= 4.1.1'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.2"
 
@@ -74,3 +65,19 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+#The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+gem 'bootstrap', '~> 5.1.3'
+#Generates attr_accessors that encrypt and decrypt attributes transparently
+gem 'attr_encrypted'
+gem 'bcrypt', '~> 3.1.7'
+gem 'will_paginate', '~> 3.3', '>= 3.3.1'
+gem 'will_paginate-bootstrap4', '~> 0.2.2'
+#The simplest way to group temporal data
+gem 'groupdate', '~> 6.4'
+#Simple authorization solution for Rails. All permissions are stored in a single location.
+gem 'cancancan', '~> 3.4'
+#Flexible authentication solution for Rails with Warden
+gem "devise", "~> 4.8.0"
+#Ransack is the successor to the MetaSearch gem. It improves and expands upon MetaSearch's functionality, but does not have a 100%-compatible API.
+gem 'ransack', '~> 4.1', '>= 4.1.1'
