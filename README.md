@@ -4,7 +4,7 @@
 
 ### Requisitos necesarios para poder correr la aplicacion
 
--Tener instalado la version de Ruby 3.0.2
+-Tener instalado la version de Ruby 3.2.2
 -Tener instalado un navegador web
 
 ### Pasos a seguir para poder correr la apliacion localmente :
